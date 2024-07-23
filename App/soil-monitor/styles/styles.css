@@ -1,20 +1,18 @@
+/* styles/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-
-.homeLayout {
-    font-family: "JetBrains Mono SemiBold";
-    font-size: 150px;
-    color: cornsilk;
-    line-height: normal;
+.body {
+    font-family: "JetBrains Mono", sans-serif;
+    color: black;
+    font-size: 2rem;
+    line-height: 4rem;
 }
 
-.homeLayout .navBar {
-    box-sizing: border-box;
-    width: 100%;
-    height: auto;
-    font-family: "JetBrains Mono";
-    font-size: 50px;
+.title_text {
+    font-family: "Josefin Sans", sans-serif;
+    color: black;
+    font-size: 4rem;
+    line-height: 6rem;
 }
