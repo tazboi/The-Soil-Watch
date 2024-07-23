@@ -5,8 +5,15 @@ import RootLayout from "@/app/layout";
 
 
 const Page = () => {
-return(
-        <HomePageNav />
+return (
+    <div>
+        <header className="bg-emerald-800 w-screen h-40 flex items-center justify-center">
+            <h1 className="title_text">Soil Monitoring</h1>
+        </header>
+
+        <HomePageNav/>
+    </div>
+
 
 )
 };

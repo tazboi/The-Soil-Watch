@@ -5,14 +5,14 @@
 
 .body {
     font-family: "JetBrains Mono", sans-serif;
-    color: black;
-    font-size: 2rem;
-    line-height: 4rem;
+    color: cornsilk;
+    font-size: 1rem;
+    line-height: 2rem;
 }
 
 .title_text {
     font-family: "Josefin Sans", sans-serif;
-    color: black;
+    color: cornsilk;
     font-size: 4rem;
-    line-height: 6rem;
+    line-height: 5rem;
 }
