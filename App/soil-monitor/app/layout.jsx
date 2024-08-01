@@ -1,7 +1,6 @@
 import "../styles/styles.css";
 import React from "react";
-import Page from "./page"
-import HomePageNav from "../components/homePageNav"
+import HomePageNav from "./components/homePageNav"
 
 
 export const metadata = {
