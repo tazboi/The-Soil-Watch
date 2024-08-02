@@ -2,8 +2,8 @@ import React from 'react';
 import Stats from '@/app/components/stats'
 
 
-const SoilStats = () => {
+const Page = () => {
     return <Stats/>
 };
 
-export default SoilStats;
+export default Page;
