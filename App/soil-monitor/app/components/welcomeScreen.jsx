@@ -2,7 +2,7 @@ import React from 'react';
 
 const WelcomeScreen = () => {
     return (
-        <div className="bg-[#708090] min-h-screen min-w-full flex flex-col items-center text-center leading-4">
+        <div className="h-full min-w-full flex flex-col items-center text-center leading-4">
             <h1 className="mb-4 font-semibold text-lg translate-y-44">
                 Welcome to the Soil Watch
             </h1>
@@ -11,6 +11,7 @@ const WelcomeScreen = () => {
                 couple different tabs you can explore. The statistics tab will show real time data about the soil where
                 the sensors have been placed.
             </p>
+
         </div>
     );
 };

@@ -7,10 +7,9 @@ export default function HomePageNav() {
     return (
         <div>
             <header className="flex bg-emerald-800 w-full h-40 items-center justify-center">
-                <h1 className="title_text">The Soil Watch</h1>
+                <h1 className="title_text select-none">The Soil Watch</h1>
             </header>
-            <nav
-                className="bg-emerald-800 max-w-full h-full flex items-center justify-center border-2 border-gray-950 ">
+            <nav className="bg-emerald-800 max-w-full h-full flex items-center justify-center border-2 border-gray-950 select-none">
                 <ul className="body flex justify-center space-x-11 bg-emerald-800 min-w-full h-full">
                     <li>
                         <Link href="../soilStats">
