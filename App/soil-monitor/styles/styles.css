@@ -29,3 +29,14 @@ html {
     height: 100%;
     background-color: #708090;
 }
+
+.stats {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+
+
+}
+
+.miniWindow_height {
+    height: 400px;
+}
