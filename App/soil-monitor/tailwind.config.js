@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     "./styles/**/*.{js,ts,jsx,tsx,mdx}",
@@ -7,6 +8,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        cinzel: ['Cinzel', 'serif'],
+        amiri: ['Amiri', 'serif'],
+        frank: ['Frank Ruhl Libre', 'serif'],
+      },
     },
   },
   plugins: [],
