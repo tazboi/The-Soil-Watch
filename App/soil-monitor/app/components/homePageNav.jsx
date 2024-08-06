@@ -6,15 +6,15 @@ import Link from "next/link";
 export default function HomePageNav() {
     return (
         <div>
-            <header className="flex bg-emerald-800 w-full h-40 items-center justify-center">
+            <header className="flex bg-[#00c95a] w-full h-40 items-center justify-center">
                 <h1 className="title_text select-none">The Soil Watch</h1>
             </header>
-            <nav className="bg-emerald-800 max-w-full h-full flex items-center justify-center border-2 border-gray-950 select-none">
-                <ul className="body flex justify-center space-x-11 bg-emerald-800 min-w-full h-full">
+            <nav className="bg-[#00c95a] max-w-full h-10 flex items-center justify-center select-none">
+                <ul className="body flex justify-center space-x-11 min-w-full h-full">
                     <li>
                         <Link href="../soilStats">
                             <button
-                                className="px-1 py-1 hover:bg-gray-600 rounded-2xl">
+                                className="px-1 py-0.5 hover:bg-gray-500 rounded-xl text-black">
                                 Soil Statistics
                             </button>
                         </Link>
@@ -22,21 +22,21 @@ export default function HomePageNav() {
                     <li>
                         <Link href="../Contact">
                             <button
-                                className="px-1 py-1 hover:bg-gray-600 rounded-2xl">Contact
+                                className="px-1 py-0.5 hover:bg-gray-500 rounded-xl text-black">Contact
                             </button>
                         </Link>
                     </li>
                     <li>
                         <Link href="../About">
                             <button
-                                className="px-1 py-1 hover:bg-gray-600 rounded-2xl">About
+                                className="px-1 py-0.5 hover:bg-gray-500 rounded-xl text-black">About
                             </button>
                         </Link>
                     </li>
                     <li>
                         <Link href="/">
                         <button
-                            className="px-1 py-1 hover:bg-gray-600 rounded-2xl">Home
+                            className="px-1 py-0.5 hover:bg-gray-500 rounded-xl text-black">Home
                         </button>
                     </Link>
                     </li>

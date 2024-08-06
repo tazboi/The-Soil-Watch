@@ -14,14 +14,13 @@
 
 .title_text {
     font-family: "Josefin Sans", sans-serif;
-    color: cornsilk;
+    color: black;
     font-size: 4rem;
     line-height: 5rem;
 }
 
-.copper_text {
-    font-family: "Open Sans", sans-serif;
-    color: #b87333
+.green_custom {
+    color: #00c95a
 }
 
 html {
