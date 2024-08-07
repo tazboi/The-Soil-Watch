@@ -4,8 +4,8 @@ import HomePageNav from "./components/homePageNav"
 
 
 export const metadata = {
-  title: "Soil Monitor",
-  description: "For Soil Monitoring",
+  title: "The Soil Watch",
+  description: "A Home for The Watchers of Soil",
 };
 
 export default function RootLayout({ children }) {
