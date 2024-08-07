@@ -13,7 +13,7 @@ const Contact = () => {
                     <div className="flex mb-3 items-center w-full flex-auto">
                         <strong>Github: </strong>
                         <Link href="https://github.com/Roenan-b">
-                            <h1 className="hover:underline hover:text-[#152514]">Roenan-b</h1>
+                            <h1 className="hover:underline hover:text-[#152514] ml-2">Roenan-b</h1>
                         </Link>
                     </div>
                     <div className="flex mb-3 items-center w-full flex-auto">
