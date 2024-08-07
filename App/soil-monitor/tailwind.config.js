@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        '4rem': '4rem',
+      },
       fontFamily: {
         cinzel: ['Cinzel', 'serif'],
         amiri: ['Amiri', 'serif'],
