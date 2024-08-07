@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
       <html lang="en">
       <body>
-      <link rel="favicon" href="/favicon.ico" sizes="any"/>
+      <link rel="icon" href="/favicon.ico" sizes="any"/>
       <HomePageNav/>
       <main>{children}</main>
       </body>
