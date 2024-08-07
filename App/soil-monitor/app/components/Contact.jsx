@@ -11,21 +11,21 @@ const Contact = () => {
                 <div
                     className="text-[#f2f1f1] font-frank mx-5 px-5 py-4 flex flex-col text-2xl leading-10 min-h-[300px]">
                     <div className="flex mb-3 items-center w-full flex-auto">
-                        <strong>Github: </strong>
+                        <strong className = "w-24">Github: </strong>
                         <Link href="https://github.com/Roenan-b">
-                            <h1 className="hover:underline hover:text-[#152514] ml-2">Roenan-b</h1>
+                            <h1 className="hover:underline hover:text-[#152514] ml-6">Roenan-b</h1>
                         </Link>
                     </div>
                     <div className="flex mb-3 items-center w-full flex-auto">
-                        <strong>LinkedIn: </strong>
+                        <strong className = "w-24">LinkedIn: </strong>
                         <Link href="https://www.linkedin.com/in/roenan/">
-                            <h1 className="hover:underline hover:text-[#152514] ml-2">Roenan Bingle</h1>
+                            <h1 className="hover:underline hover:text-[#152514] ml-6">Roenan Bingle</h1>
                         </Link>
                     </div>
                     <div className="flex mb-3 items-center w-full flex-auto">
-                        <strong>Email: </strong>
+                        <strong className = "w-24">Email: </strong>
                         <Link href="mailto:roenanbingle@gmail.com">
-                            <h1 className="hover:underline hover:text-[#152514] ml-2">roenanbingle@gmail.com</h1>
+                            <h1 className="hover:underline hover:text-[#152514] ml-6">roenanbingle@gmail.com</h1>
                         </Link>
                     </div>
                 </div>
