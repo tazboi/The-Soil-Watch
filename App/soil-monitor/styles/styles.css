@@ -13,12 +13,34 @@
     margin: 0;
 }
 
-.title_text {
-    color: #f2f1f1;
-    font-size: 4rem;
-    line-height: 5rem;
-    font-family: 'Cinzel', serif;
-    font-weight: bold;
+@media(min-width: 1024px) {
+    .title_text {
+        color: #f2f1f1;
+        font-size: 4rem;
+        line-height: 5rem;
+        font-family: 'Cinzel', serif;
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 641px) {
+    .title_text {
+        color: #f2f1f1;
+        font-size: 3.5rem;
+        line-height: 4rem;
+        font-family: 'Cinzel', serif;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 640px) {
+    .title_text {
+        font-size: 3rem; /* Equivalent to text-4xl in Tailwind */
+        line-height: 3.5rem;
+        font-family: 'Cinzel', serif; /* Custom font */
+        font-weight: 600; /* Semi-bold */
+        color: #f2f1f1;
+    }
 }
 
 .green_custom_1 {
