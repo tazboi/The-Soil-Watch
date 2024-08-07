@@ -11,6 +11,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
       <html lang="en">
+      <Head>
+          <title>The Soil Watch</title>
+          <meta name="description" content="A Home for The Watchers of Soil" />
+          <link rel="icon" href="/favicon.ico" />
+      </Head>
       <body>
       <HomePageNav/>
       <main>{children}</main>
