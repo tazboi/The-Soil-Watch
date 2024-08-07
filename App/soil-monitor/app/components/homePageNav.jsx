@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function HomePageNav() {
     return (
         <div>
-            <header className="flex bg-[#152514] w-full h-40 items-center justify-center">
+            <header className="flex bg-[#152514] w-full h-32 items-center justify-center">
                 <h1 className= "title_text">The Soil Watch</h1>
             </header>
             <nav className="bg-[#152514] max-w-full h-10 flex items-center justify-center select-none">
