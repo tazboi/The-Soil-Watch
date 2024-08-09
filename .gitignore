@@ -1,0 +1,11 @@
+# Ignore config.h file
+sensors/config.h
+
+# Ignore all log files
+*.log
+
+# Ignore logs directory
+logs/
+
+# Ignore .idea files
+sensors/.idea/
