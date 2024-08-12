@@ -15,7 +15,7 @@ export default function HomePageNav() {
                     <li>
                         <Link href="../soilStats">
                             <button
-                                className="px-1 py-0.5 hover:bg-[#677066] rounded-xl text-[#f2f1f1] text-2xl font-amiri">
+                                className="px-1 py-0.5 hover:bg-[#677066] rounded-xl text-[#f2f1f1] text-2xl font-amiri outline-none">
                                 Soil Statistics
                             </button>
                         </Link>
@@ -23,21 +23,21 @@ export default function HomePageNav() {
                     <li>
                         <Link href="../Contact">
                             <button
-                                className="px-1 py-0.5 hover:bg-[#677066] rounded-xl text-[#f2f1f1] text-2xl font-amiri">Contact
+                                className="px-1 py-0.5 hover:bg-[#677066] rounded-xl text-[#f2f1f1] text-2xl font-amiri outline-none">Contact
                             </button>
                         </Link>
                     </li>
                     <li>
                         <Link href="../About">
                             <button
-                                className="px-1 py-0.5 hover:bg-[#677066] rounded-xl text-[#f2f1f1] text-2xl font-amiri">About
+                                className="px-1 py-0.5 hover:bg-[#677066] rounded-xl text-[#f2f1f1] text-2xl font-amiri outline-none">About
                             </button>
                         </Link>
                     </li>
                     <li>
                         <Link href="/">
                         <button
-                            className="px-1 py-0.5 hover:bg-[#677066] rounded-xl text-[#f2f1f1] text-2xl font-amiri">Home
+                            className="px-1 py-0.5 hover:bg-[#677066] rounded-xl text-[#f2f1f1] text-2xl font-amiri outline-none">Home
                         </button>
                     </Link>
                     </li>
