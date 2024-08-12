@@ -5,14 +5,7 @@ import {createServerComponentClient} from "@supabase/auth-helpers-nextjs";
 const MiniWindow = async ({title}) => {
     const userCookies = cookies();
     const sensorNum = title;
-    const supabase = createServerComponentClient({cookies: () => userCookies})
 
-    const {data: plants, error} = await supabase.from("sensor_data").select('*').eq('sensor', sensorNum)
-
-    if(error){
-        console.log(error, 'Error fetching the soil moisture')
-    }
-console.log({plants})
 
     return (
         <div
