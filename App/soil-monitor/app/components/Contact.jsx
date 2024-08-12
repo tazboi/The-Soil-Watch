@@ -9,7 +9,7 @@ const Contact = () => {
             </h1>
             <div className="flex-grow flex items-center">
                 <div
-                    className="text-[#f2f1f1] font-frank mx-5 px-5 py-4 flex flex-col text-2xl leading-10 min-h-[300px]">
+                    className="text-[#f2f1f1] font-frank mx-2 px-5 py-4 flex flex-col text-2xl leading-10 min-h-[300px]">
                     <div className="flex mb-3 items-center w-full flex-auto">
                         <strong className = "w-24">Github: </strong>
                         <Link href="https://github.com/Roenan-b">
