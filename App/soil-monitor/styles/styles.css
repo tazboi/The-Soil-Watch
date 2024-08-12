@@ -13,7 +13,7 @@
     margin: 0;
 }
 
-@media(min-width: 1024px) {
+@media (min-width: 1024px) {
     .title_text {
         color: #f2f1f1;
         font-size: 4rem;
@@ -23,7 +23,7 @@
     }
 }
 
-@media(min-width: 641px) {
+@media (min-width: 641px) {
     .title_text {
         color: #f2f1f1;
         font-size: 3.5rem;
