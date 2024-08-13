@@ -57,11 +57,11 @@ The site will be available at [http://localhost:3000](http://localhost:3000).
 
 - **Notifications:** Add SMS/email alerts for low soil moisture levels.
 - **Additional Sensors:** Integrate temperature and humidity sensors for comprehensive plant care.
-- **User Authentication:** Allow multiple users to manage their own plants.
+- **User Authentication:** Allow multiple users to manage their plants.
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is open-source and available under the [GNU General Public License (GPL)](LICENSE).
 
 ## Acknowledgments
 
