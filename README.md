@@ -1,4 +1,4 @@
-# The Soil Watch 🌱
+# The Soil Watch 🌱⚔️
 
 ## Overview
 **The Soil Watch** is a web-based application designed to monitor soil moisture levels for plant care. This project aims to help users, like my parents, keep their plants healthy by providing real-time data and insights into soil conditions. The system uses an ESP32 microcontroller to collect moisture data, which is then stored in a Supabase database and displayed on a React-based website.
