@@ -8,6 +8,7 @@
 - **Data Visualization:** Displays moisture data in an easy-to-understand format using charts and graphs.
 - **User-Friendly Interface:** Simple and intuitive UI for easy navigation.
 - **Mobile Responsive:** Accessible from any device, including smartphones and tablets.
+- **Water Resistant Covering:** A housing for the sensors and MCU is included here.
 
 ## Tech Stack
 - **Frontend:** React, Next.js
